@@ -3,9 +3,11 @@
 library(dash)
 library(dashCoreComponents)
 library(dashHtmlComponents)
-library(tidyverse)
+library(readr)
+library(dplyr)
+library(ggplot2)
 library(plotly)
-library(lubridate)
+library(purrr)
 
 app <- Dash$new()
 
