@@ -45,6 +45,7 @@ install.packages("https://cloud.r-project.org/src/contrib/globals_0.12.5.tar.gz"
 install.packages("https://cloud.r-project.org/src/contrib/Archive/future/future_1.11.1.1.tar.gz", type="source", repos=NULL)
 install.packages("https://cran.r-project.org/src/contrib/ggplot2_3.2.1.tar.gz", type="source", repos=NULL)
 install.packages("https://cran.r-project.org/src/contrib/dplyr_0.8.3.tar.gz", type="source", repos=NULL)
+install.packages("https://cran.r-project.org/src/contrib/purrr_0.3.3.tar.gz", type="source", repos=NULL)
 
 # fiery and friends
 install.packages("https://cloud.r-project.org/src/contrib/routr_0.4.0.tar.gz", type="source", repos=NULL)
