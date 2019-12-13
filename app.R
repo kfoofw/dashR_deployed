@@ -11,7 +11,7 @@ library(purrr)
 
 app <- Dash$new()
 
-df <- as_tibble(read_csv("data/aac_data_cleaned.csv"))
+df <- read_csv("https://raw.githubusercontent.com/kfoofw/dashR_deployed/master/data/aac_data_cleaned.csv")
 
 # General wrangling
 df <- df %>% mutate(age_years = `age_upon_intake_(days)`/365)
